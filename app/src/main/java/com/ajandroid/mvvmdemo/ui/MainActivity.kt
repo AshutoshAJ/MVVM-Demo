@@ -3,6 +3,7 @@ package com.ajandroid.mvvmdemo.ui
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.view.View
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -47,6 +48,7 @@ class MainActivity : AppCompatActivity() {
         viewModel.moviesList.observe(this, Observer {
             adapter.setList(it)
             adapter.notifyDataSetChanged()
+            binding.progressBar.visibility = View.GONE
         })
 
         viewModel.errorMessage.observe(this, Observer {
@@ -57,6 +59,7 @@ class MainActivity : AppCompatActivity() {
     override fun onStart() {
         super.onStart()
         viewModel.getAllMovies()
+        binding.progressBar.visibility = View.VISIBLE
     }
 
 }
