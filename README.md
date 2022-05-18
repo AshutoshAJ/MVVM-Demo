@@ -15,7 +15,7 @@ Get started using the API Docs [API Docs](https://developers.themoviedb.org/3/ge
 MVVM
 
 ## Directory Structure
-![Directory Structure](https://github.com/AshutoshAJ/ProjectScreenshots/raw/master/MVVMDemo/DirectoryStructure.PNG)
+![Directory Structure](https://github.com/AshutoshAJ/ProjectScreenshots/raw/master/MVVMDemo/MVVM%20Directory%20Structure.PNG)
 
 ## Screenshots
 ![Screenshot](https://github.com/AshutoshAJ/ProjectScreenshots/raw/master/MVVMDemo/Screenshot.jpg)
