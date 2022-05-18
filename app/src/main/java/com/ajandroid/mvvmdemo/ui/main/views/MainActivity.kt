@@ -1,4 +1,4 @@
-package com.ajandroid.mvvmdemo.ui
+package com.ajandroid.mvvmdemo.ui.main.views
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -7,13 +7,12 @@ import android.view.View
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.ajandroid.mvvmdemo.R
-import com.ajandroid.mvvmdemo.adapters.MovieAdapter
+import com.ajandroid.mvvmdemo.ui.main.adapters.MovieAdapter
 import com.ajandroid.mvvmdemo.databinding.ActivityMainBinding
-import com.ajandroid.mvvmdemo.networkutils.RetrofitService
-import com.ajandroid.mvvmdemo.repository.Repository
-import com.ajandroid.mvvmdemo.viewmodels.MoviesViewModel
-import com.ajandroid.mvvmdemo.viewmodels.MoviesViewModelFactory
+import com.ajandroid.mvvmdemo.data.api.RetrofitService
+import com.ajandroid.mvvmdemo.data.repository.Repository
+import com.ajandroid.mvvmdemo.ui.main.viewmodels.MoviesViewModel
+import com.ajandroid.mvvmdemo.ui.base.MoviesViewModelFactory
 
 class MainActivity : AppCompatActivity() {
 

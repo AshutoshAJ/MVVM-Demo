@@ -1,11 +1,10 @@
-package com.ajandroid.mvvmdemo.viewmodels
+package com.ajandroid.mvvmdemo.ui.main.viewmodels
 
-import android.util.Log
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.ajandroid.mvvmdemo.models.Movie
-import com.ajandroid.mvvmdemo.models.MoviesList
-import com.ajandroid.mvvmdemo.repository.Repository
+import com.ajandroid.mvvmdemo.data.models.Movie
+import com.ajandroid.mvvmdemo.data.models.MoviesList
+import com.ajandroid.mvvmdemo.data.repository.Repository
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

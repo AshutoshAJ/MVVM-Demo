@@ -1,7 +1,7 @@
-package com.ajandroid.mvvmdemo.networkutils
+package com.ajandroid.mvvmdemo.data.api
 
 import com.ajandroid.mvvmdemo.BuildConfig
-import com.ajandroid.mvvmdemo.models.MoviesList
+import com.ajandroid.mvvmdemo.data.models.MoviesList
 import retrofit2.Call
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

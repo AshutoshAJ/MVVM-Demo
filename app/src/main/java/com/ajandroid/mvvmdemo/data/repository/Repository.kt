@@ -1,8 +1,8 @@
-package com.ajandroid.mvvmdemo.repository
+package com.ajandroid.mvvmdemo.data.repository
 
 import com.ajandroid.mvvmdemo.BuildConfig
-import com.ajandroid.mvvmdemo.models.MoviesList
-import com.ajandroid.mvvmdemo.networkutils.RetrofitService
+import com.ajandroid.mvvmdemo.data.models.MoviesList
+import com.ajandroid.mvvmdemo.data.api.RetrofitService
 import retrofit2.Call
 
 class Repository constructor(

@@ -1,8 +1,9 @@
-package com.ajandroid.mvvmdemo.viewmodels
+package com.ajandroid.mvvmdemo.ui.base
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.ajandroid.mvvmdemo.repository.Repository
+import com.ajandroid.mvvmdemo.data.repository.Repository
+import com.ajandroid.mvvmdemo.ui.main.viewmodels.MoviesViewModel
 import java.lang.IllegalArgumentException
 
 class MoviesViewModelFactory constructor(

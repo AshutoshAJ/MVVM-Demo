@@ -1,11 +1,11 @@
-package com.ajandroid.mvvmdemo.adapters
+package com.ajandroid.mvvmdemo.ui.main.adapters
 
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.ajandroid.mvvmdemo.databinding.ListItemBinding
-import com.ajandroid.mvvmdemo.models.Movie
+import com.ajandroid.mvvmdemo.data.models.Movie
 import com.bumptech.glide.Glide
 
 class MovieAdapter: RecyclerView.Adapter<MyViewHolder>() {

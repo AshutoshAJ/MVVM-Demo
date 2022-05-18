@@ -1,4 +1,4 @@
-package com.ajandroid.mvvmdemo.models
+package com.ajandroid.mvvmdemo.data.models
 
 
 import com.google.gson.annotations.SerializedName
